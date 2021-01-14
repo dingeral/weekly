@@ -43,8 +43,12 @@
               recordIP: true,        //显示ip
               enableQQ: true,
               meta : ['nick','mail'], // 选项
-              requiredFields: ['nick','mail'],  //必填
-              admin_email_hash: 'bd6a50be9145d359bf6607d946a07fa6', // 可选，管理员邮箱md5，用于显示管理员标志👮‍
+              requiredFields: ['nick','mail'],  //必填‍
+              master : ["bd6a50be9145d359bf6607d946a07fa6"],    // 可选，管理员邮箱md5，用于显示管理员标志👮
+              friends: ['e9f38b96ebbd0218b94e529b9f8b002a'],
+              notify: true,
+              tagMeta : ["博主","小伙伴","访客"],
+              
 
     },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
@@ -87,7 +91,7 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-<script src='//cdn.jsdelivr.net/gh/dingeral/CDN/weekly/Valine.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/dingeral/CDN/weekly/Valine.min.js'></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-valine/dist/docsify-valine.min.js"></script>
 </script>
 </body>
