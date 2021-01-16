@@ -9,6 +9,13 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dingeral/CDN/docsify/theme/vue_4_2.css">
   <link rel = "icon" type = "image/png" href = "https://cdn.jsdelivr.net/gh/dingeral/CDN/docsify/media/notebook_40875.ico">
+
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+ 
+
   <style>
       td::before { display: none }
   </style>
@@ -34,10 +41,10 @@
           lang: 'zh-cn',           //语言
           avatar: 'wavatar',     //头像
           el:'#vcomments',
-          visitor: true, // 阅读量统计
+          visitor: false, // 阅读量统计
           appId: '3dLfMlo9TuXFdjIIpkgsFPJT-MdYXbMMI',
           appKey: 'Xi0iWBqqje6RRPw434swJkTg',
-          placeholder: '写下你的看法吧',  // 提示符
+          placeholder: '写下你的看法',  // 提示符
           max_nest: 3,					// 嵌套评论深度，太大会影响加载速度
           page_size: 5,					// 分页大小
           recordIP: true,        //显示ip
@@ -46,10 +53,7 @@
           requiredFields: ['nick','mail'],  //必填‍
           master : ["bd6a50be9145d359bf6607d946a07fa6"],    // 可选，管理员邮箱md5，用于显示管理员标志👮
           friends: ['e9f38b96ebbd0218b94e529b9f8b002a'],
-          notify: true,
           tagMeta : ["博主","小伙伴","访客"],
-              
-
     },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       themeColor: '#0E6D0B',
