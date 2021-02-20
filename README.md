@@ -10,8 +10,8 @@
 
 [第五期](周刊/第五期.md) &emsp; [第六期](周刊/第六期.md)
 
-<span id="busuanzi_container_site_pv">
-    👁️‍🗨️<span id="busuanzi_value_site_pv"></span>
+<span id="busuanzi_container_site_uv">
+    👁️‍🗨️<span id="busuanzi_value_site_uv"></span>
 </span>
 
 
